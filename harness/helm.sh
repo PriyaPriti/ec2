@@ -13,3 +13,5 @@ helm upgrade -i helm-delegate --namespace harness-delegate-ng --create-namespace
   --set managerEndpoint=https://app.harness.io/gratis \
   --set delegateDockerImage=harness/delegate:23.06.79707 \
   --set replicas=1 --set upgrader.enabled=false
+
+  
